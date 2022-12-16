@@ -1,0 +1,98 @@
+.cardInfoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.cardInfoImg, .cardInfoImg img {
+    width: 565px;
+    height: 711px;
+}
+
+.cardInfoInfo {
+    width: 100%;
+    max-width: 592px;
+    min-width: 300px;
+}
+
+.tituloFavClose {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tituloFav {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tituloFavClose h1 {
+    font-weight: 600;
+    font-size: 48px;
+    color: rgba(28, 28, 28, 0.85);
+}
+
+.cardInfoAddFav {
+    width: 36px;
+    height: 36px;
+    background-color: transparent;
+    color: #3B3C3C;
+    border: #3B3C3C solid 3px;
+    font-size: 28px;
+    line-height: normal;
+    font-family: sans-serif;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.cardInfoGender, .cardInfoLang {
+    height: 30px;
+    margin-bottom: 32px;
+    display: flex;
+    gap: 24px;
+}
+
+.cardInfoGender > span, .cardInfoLang > span {
+    background: rgba(102, 204, 204, 0.76);
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-left: solid rgba(102, 204, 204, 0.76) 4px;
+    border-right: solid rgba(102, 204, 204, 0.76) 4px;
+    cursor: pointer;
+}
+
+.cardInfoOverview {
+    height: 260px;
+    overflow: auto;
+}
+
+.cardInfoOverview > p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #4B4B4B;
+}
+
+.cardInfoData > div {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4B4B4B;
+}
+
+.cardInfoData span{
+    font-weight: 700;
+    font-size: 24px;
+    color: #4B4B4B;
+}

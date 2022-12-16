@@ -1,0 +1,110 @@
+.divtest {
+    width: 244px;
+    height: 307px;
+    border-radius: 25px;;
+}
+.card {
+    width: 244px;
+    height: 307px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.25s ease-in-out;
+    cursor: help;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 8px 4px -2px rgba(0, 0, 0, 0.15);
+}
+
+.card > img {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    transition: 0.25s ease-in-out;
+}
+
+.rating {
+    width: 44px;
+    height: 42px;
+    background-color: rgba(102, 204, 204, 0.76);
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 25px 0px 0px 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.rating p {
+    line-height: normal;
+}
+
+.cardGradient {
+    height: 136px;
+    width: 244px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 49.48%);
+    border-radius: 0px 0px 25px 25px;
+    z-index: 1;
+}
+
+.cardTitle {
+    height: 25px;
+    margin: 37px 0px 0px 16px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    overflow: hidden;
+}
+
+.cardGradient > div {
+    margin-left: 16px;
+    display: flex;
+    justify-content: start;
+}
+
+.cardDescription {
+    width: 182px;
+    height: 70px;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+.cardDescription p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.cardAddFav {
+    width: 32px;
+    height: 32px;
+    margin-top: 26px;
+    background-color: transparent;
+    color: white;
+    border: #FFFFFF solid 3px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: normal;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.card:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 26px;
+}
+
+.card img:hover {
+    top: -35px;
+    left: -35px;
+    width: 314px;
+    height: 377px;
+}
