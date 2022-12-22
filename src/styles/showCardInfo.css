@@ -28,12 +28,14 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 90%;
 }
 
 .tituloFavClose h1 {
     font-weight: 600;
     font-size: 48px;
     color: rgba(28, 28, 28, 0.85);
+    max-width: 79%;
 }
 
 .cardInfoAddFav {

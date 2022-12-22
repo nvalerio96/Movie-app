@@ -5,7 +5,7 @@ import { customFetch } from './utility/customFetch'
 import { searchInput } from '../App'
 export const BASE_DISCOVER_URL = "https://api.themoviedb.org/3/discover/movie?"
 export const BASE_SEARCH_URL = "https://api.themoviedb.org/3/search/movie?"
-export const API_KEY_LANGUAGE = "api_key=64451f9d22567bb754ca3ffd2fcb18b5&language=es"
+export const API_KEY_LANGUAGE = "api_key=64451f9d22567bb754ca3ffd2fcb18b5&language=es&include_adult=false&page=1"
 export let currentUrl = {url:`${BASE_DISCOVER_URL}`}
 const favourites = false
 

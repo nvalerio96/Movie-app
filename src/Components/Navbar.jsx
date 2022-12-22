@@ -26,6 +26,7 @@ export const Navbar = ({setPage}) => {
         <input type="text" placeholder="Buscar..." id='searchBar'/>
         <img src={SearchLogo} id='searchButton' onClick={() => {searchInput.input = document.getElementById("searchBar").value.split(" ").join("%20").toLowerCase()
                                                                 currentUrl.url = BASE_SEARCH_URL
+                                                                beforeCard.pop()
                                                                 pageCache.cache = "s1"
                                                                 setPage(pageCache.cache)
                                                                 }}/>

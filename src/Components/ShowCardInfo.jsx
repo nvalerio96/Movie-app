@@ -27,7 +27,7 @@ export const ShowCardInfo = ({setPage, cardData, genres, setFavList}) => {
                             return newCurrent
                         })}}>+</button>
               </div>
-              <img className='close' src={Close} alt="X" onClick={() => {setPage(beforeCard.toString())
+              <img className='close' src={Close} alt="X" onClick={() => {setPage(beforeCard[0])
                                                                         beforeCard.pop()}}/>
             </div>
             <div className='cardInfoGender'>

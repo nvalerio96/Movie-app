@@ -2,7 +2,7 @@ import '../styles/cardContainer.css'
 import { Card } from './Card'
 
 //Contenedor de cartas que se va a mostrar en el componente "Display page" 
-export const CardContainer = ({page, setPage, setFavList, apiData, cardData}) => {
+export const CardContainer = ({setPage, setFavList, apiData, cardData}) => {
   
   return (
     <section className='cardContainer'>
